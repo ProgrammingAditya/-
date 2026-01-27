@@ -1,0 +1,29 @@
+.author-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+.img {
+    height: 10 px;
+}
+body{
+    background-color: #2f2a24;
+    color: #f5efe6;
+}
+p{
+    font-style: italic;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background: #1d3557;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.btn:hover{
+    background:#457b9d
+}
