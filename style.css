@@ -13,3 +13,8 @@ body{
 .btn:hover{
     background:#457b9d
 }
+.content-box {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 40px;
+}
