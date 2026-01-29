@@ -18,3 +18,98 @@ body{
   margin: 40px auto;
   padding: 30px 40px;
 }
+.site-footer a:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+.site-footer {
+  margin-top: 60px;
+  padding: 25px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  border-top: 1px solid #ddd;
+}
+/* PAGE BACKGROUND */
+body {
+  background: #f2eadf;
+  font-family: 'Georgia', serif;
+}
+
+/* MAIN CONTENT BOX */
+div {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fffaf2;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  position: relative;
+}
+
+/* FLOWER TOP */
+div::before {
+  content: "❀ ❀ ❀";
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  color: #a84c4c;
+  margin-bottom: 30px;
+}
+
+/* FLOWER BOTTOM */
+div::after {
+  content: "❀ ❀ ❀";
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  color: #a84c4c;
+  margin-top: 30px;
+}
+
+/* HEADINGS */
+h1 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 35px;
+  color: #3a3a3a;
+}
+
+h3 {
+  margin-top: 25px;
+  color: #4a4a4a;
+}
+
+/* PARAGRAPH */
+p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #2f2f2f;
+  margin-bottom: 18px;
+}
+
+/* LIST */
+ul {
+  padding-left: 22px;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+div::before,
+div::after {
+  content: "🌸 🌼 🌸";
+}
+div::before,
+div::after {
+  content: "❀ ✿ ❀";
+}

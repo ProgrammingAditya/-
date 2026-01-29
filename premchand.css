@@ -38,3 +38,64 @@ p{
   margin: 40px auto;
   padding: 30px 40px;
 }
+.site-footer a:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+.site-footer {
+  margin-top: 60px;
+  padding: 25px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  border-top: 1px solid #ddd;
+}
+body{
+    margin: 0;
+    font-family: "Noto Serif Devanagari", serif;
+    background:
+      url("https://www.transparenttextures.com/patterns/flowers.png"),
+      linear-gradient(135deg,#1f2933,#111827);
+    background-attachment: fixed;
+    color: #f5f6f7;
+}
+body{
+    margin: 0;
+    font-family: "Noto Serif Devanagari", serif;
+    background:
+      url("https://www.transparenttextures.com/patterns/flowers.png"),
+      linear-gradient(135deg,#1f2933,#111827);
+    background-attachment: fixed;
+    color: #f5f6f7;
+}
+h1,h2,h3{
+    color: #facc15;
+    text-shadow: 0 0 8px rgba(250,204,21,0.4);
+    letter-spacing: 1px;
+}
+p, li, pre{
+    line-height: 1.7;
+    color: #e5e7eb;
+}
+.author-image img{
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(250,204,21,0.5);
+    border: 2px solid #facc15;
+}
+.four-column-list li{
+    background: rgba(255,255,255,0.05);
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.four-column-list li:hover{
+    background: rgba(250,204,21,0.15);
+    transform: scale(1.05);
+}
+.site-footer{
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #9ca3af;
+}
