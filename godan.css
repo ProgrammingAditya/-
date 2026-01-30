@@ -99,3 +99,95 @@ p, pre {
   line-height: 1.8;
   color: #2f2f2f;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", "Noto Serif Devanagari", serif;
+}
+
+body {
+  background: #f4efe6;
+  color: #222;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.chapter-nav {
+  width: 260px;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.chapter-nav h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #f5c16c;
+}
+
+.chapter-nav a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  transition: 0.2s;
+}
+
+.chapter-nav a:hover {
+  background: #f5c16c;
+  color: #000;
+}
+
+/* Main reading area */
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.novel-wrapper {
+  max-width: 900px;
+  margin: auto;
+}
+
+.content-box {
+  background: #fff;
+  padding: 50px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+h3 {
+  margin: 25px 0 10px;
+  color: #8b5e3c;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 2;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #777;
+}

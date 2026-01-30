@@ -113,3 +113,68 @@ div::before,
 div::after {
   content: "❀ ✿ ❀";
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", "Noto Serif Devanagari", serif;
+}
+
+body {
+  background: linear-gradient(to right, #f5efe6, #fdfcf9);
+  color: #2c2c2c;
+  min-height: 100vh;
+}
+
+.content-box {
+  max-width: 900px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+h3 {
+  margin-top: 10px;
+  color: #8b5e3c;
+}
+
+p {
+  margin-top: 12px;
+  line-height: 1.9;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #8b5e3c;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #5a3a22;
+  transform: scale(1.05);
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #666;
+}
